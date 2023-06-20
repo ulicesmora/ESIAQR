@@ -1,0 +1,40 @@
+h1{
+    text-align: center; 
+}
+.estilo {
+    text-align: center;
+}
+.tipo {
+    text-align: center;
+}
+.comprobacion {
+    text-align: center;
+}
+.preferida{
+    text-align: center;
+}
+.flash {
+    text-align: center;
+}
+.detectado1 {
+    text-align: center;
+}
+.detectado {
+    text-align: center;
+}
+
+.contenedor-general{
+    background-image: url(/escudo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+    position: relative;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .contenedor-opciones {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 1rem;
+    position: relative;
+  }
